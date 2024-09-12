@@ -633,6 +633,37 @@ nav {
   }
 }
 
+.backgroundi{
+  background: #f2f2f2;
+}
+.facilities{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.facilities-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  text-align: left;
+}
+.facilities-col img{
+  width: 91%;
+  border-radius: 10px;
+  height: 302px;
+}
+.facilities-col p{
+  padding: 0;
+  color:#001;
+}
+.facilities-col h3{
+  margin-top: 16px;
+  margin-bottom: 7px;
+  text-align: left;
+  color:#001;
+}
+
 .footer {
   background-color: var(--primary-color);
 }
