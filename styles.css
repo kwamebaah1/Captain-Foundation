@@ -765,6 +765,69 @@ nav {
   text-align: center;
 }
 
+@media (max-width: 480px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden; 
+  }
+
+  .about__grid,
+  .feature__grid,
+  .menu__images,
+  .menu__banner,
+  .news__grid,
+  .footer__container,
+  .booking__container form {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav__bar {
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header__container h1{
+    font-size: 32px;
+  }
+
+  .about__container,
+  .room__grid,
+  .intro__container,
+  .menu__items,
+  .menu__header,
+  .news__header {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__col:first-child {
+    grid-column: 1 / -1;
+  }
+
+  img,
+  .about__image,
+  .feature__card,
+  .menu__banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about::before {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 @media (width > 480px) {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
