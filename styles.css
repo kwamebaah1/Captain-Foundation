@@ -818,6 +818,10 @@ nav {
     font-size: 12px;
   }
 
+  .footerlogo {
+    width: 40px;
+  }
+
   .section__description {
     width: 95%;
     font-size: 13px;
