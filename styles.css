@@ -536,6 +536,7 @@ nav {
 .news__card img {
   margin-bottom: 2rem;
   border-radius: 5px;
+  height: 260px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
