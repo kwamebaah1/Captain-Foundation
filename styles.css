@@ -172,6 +172,11 @@ nav {
   color: var(--secondary-color);
 }
 
+.nav__logo img{
+  height: 43px;
+  padding-right: 10px;
+}
+
 .header {
   padding-block: 5rem;
   background-image: linear-gradient(
