@@ -201,6 +201,18 @@ nav {
   background-repeat: no-repeat;
 }
 
+.header2 {
+  padding-block: 5rem;
+  background-image: linear-gradient(
+      rgba(15, 26, 44, 0.5),
+      rgba(15, 26, 44, 0.5)
+    ),
+    url("assets/about1.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .header__container .section__subheader {
   color: var(--white);
 }
