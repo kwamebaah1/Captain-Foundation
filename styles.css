@@ -798,6 +798,11 @@ nav {
     width: 100vw;
   }
 
+  .nav__logo img{
+    padding-right: 0;
+    width: 40px;
+  }
+
   .nav__links {
     flex-direction: column;
     width: 100%;
