@@ -731,7 +731,7 @@ nav {
 .photo::before {
   content: '';
   display: block;
-  padding-bottom: 150%; /* Creates an aspect ratio for the image container */
+  padding-bottom: 150%;
 }
 
 .photo img {
@@ -744,9 +744,8 @@ nav {
   border-radius: 5px;
 }
 
-/* Adjust the height of certain images to create the masonry effect */
 .photo:nth-child(2n) {
-  grid-row: span 2; /* Make every second image taller */
+  grid-row: span 2;
 }
 
 @media (max-width: 768px) {
