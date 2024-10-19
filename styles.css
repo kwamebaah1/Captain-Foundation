@@ -713,6 +713,12 @@ nav {
   width: 90%;
   margin: auto;
   padding: 40px 0;
+  text-align: center;
+}
+
+.grid-wrapper h1 {
+  font-size: 25px;
+  align-items: center;
 }
 
 .gallery {
