@@ -733,6 +733,12 @@ nav {
   object-fit: cover;
 }
 
+@media(max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
+
 .backgroundi{
   background: #f2f2f2;
 }
