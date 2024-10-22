@@ -797,6 +797,7 @@ nav {
   object-fit: cover;
   border-radius: 5px;
   transition: transform 5s ease-in-out;
+  cursor: pointer;
 }
 
 .photo img:hover {
