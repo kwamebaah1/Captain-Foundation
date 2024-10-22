@@ -796,11 +796,11 @@ nav {
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  transition: transform 5s ease-in-out; /* Smooth zooming effect */
+  transition: transform 5s ease-in-out;
 }
 
 .photo img:hover {
-  transform: scale(1.1); /* Zoom in */
+  transform: scale(1.1);
 }
 
 .photo:nth-child(2n) {
