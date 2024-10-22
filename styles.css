@@ -177,22 +177,21 @@ nav {
   padding-right: 10px;
 }
 
-/* Dropdown styles */
 .nav__gallery {
-  position: relative; /* Position the gallery dropdown relative to its parent */
+  position: relative;
 }
 
 .nav__gallery__dropdown {
-  display: none; /* Initially hidden */
+  display: none;
   position: absolute;
-  top: 100%; /* Position directly below the "Gallery" tab */
+  top: 100%;
   left: 0;
   background-color: var(--white);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 0;
   list-style: none;
   min-width: 150px;
-  z-index: 99; /* Ensure it stays on top */
+  z-index: 99;
 }
 
 .nav__gallery__dropdown li {
@@ -210,10 +209,9 @@ nav {
   background-color: var(--extra-light);
 }
 
-/* Ensure the dropdown stays visible when hovering over the gallery or the dropdown */
 .nav__gallery:hover .nav__gallery__dropdown,
 .nav__gallery__dropdown:hover {
-  display: block; /* Keep dropdown visible when hovering over the "Gallery" or dropdown */
+  display: block;
 }
 
 .header {
