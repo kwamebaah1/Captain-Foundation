@@ -1,6 +1,3 @@
-// JavaScript to handle navigation between gallery years
-
-// All galleries based on year
 const galleries = document.querySelectorAll('.gallery[data-year]');
 let currentYearIndex = 0; // Start with the first year (2018)
 
